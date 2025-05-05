@@ -1,6 +1,6 @@
 # How to contribute to Master Course Repositories
 
-For us all to have a consistent environment teaching and diving into a course it would be fantastic to have some guidelines on how to contribute to master course reposotories.
+For us all to have a consistent environment teaching it would be fantastic to have some guidelines on how to contribute to master course repositories (for those that have them).
 
 This is an attempt at creating consistency so we can dive into a new course and know exactly what we need and where to go.
 
@@ -10,12 +10,13 @@ This is an attempt at creating consistency so we can dive into a new course and 
 
 - [DMIT2008 - Intermediate Frontend Dev](https://github.com/dmit-2008/master-course)
 - [CPSC1520 - Intro to Frontend Dev](https://github.com/CPSC-1520/master-course/tree/master)
+- [SDEV1001 - Programming Fundamentals](https://github.com/SDEV-NAIT/SDEV1001?tab=readme-ov-file)
 
 *Please add your repo here if you have one via pull request*
 
 ## Expectations
 
-If you are teaching a course, you should be doing the following:
+If you are teaching a course (with a master-course), you should be doing the following:
 - creating and updating course content and examples
 - fixing typos and errors
 - adding notes that might have helped you and might help another instructor in the future.
@@ -25,7 +26,7 @@ Please clean up content and make it easier for the next instructors to teach the
 ## How to contribute
 
 1. Clone the repository locally.
-2. Add your changes to the repository and push them up: 
+2. Add your changes to the repository and push them up:
   - Push the changes if they fall under  **Things that you can just push up to the Repository** (see below)
   - Create a pull request if the changes fall under **Things that require a pull request** (see below)
 3. Notify your fellow instructors or update an issue named "Recent Changes in the Repository"
@@ -37,7 +38,7 @@ Please clean up content and make it easier for the next instructors to teach the
 - **Links**
   - If the need to be updated or if they're broken.
 - **Examples and Notes**
-  - just push them up and **make a reference to them in the lesson plan.**
+  - just push them up and **make a reference to them in the lesson plan** in the README of the topic.
   - *Add a comment to an issue for "Recent Updates" to this course, if there isn't one please create it.* Note: There should only be one of these issues.
 - Adding information to "Personal Resources"
   - *Add a comment to an issue for "Recent Updates" to this course, if there isn't one please create it.* Note: There should only be one of these issues.
@@ -51,15 +52,16 @@ Please clean up content and make it easier for the next instructors to teach the
   - The Assignment should be in Master course first in a pull request before you updated the starter-kit.
     - If you create in the starter kit first please make a pull request referencing it in the master course as well.
   - The old assignment can be moved to an "old_assignments" folder in the folder of that specific assignment.
-  - In the "README.md" of the assignment there should be a link to the Starter-KIT that is being used (one per assignment.) *There should also be a reference to this in the master course readme as well.*
+  - In the "README.md" of the assignment there should be a link to the the assignment template that is being used (one per assignment.) *There should also be a reference to this in the master course readme as well.*
   - Add a comment to an issue for "Recent Updates" to this course, if there isn't one please create it. There should only be one of these issues.
-  - **Ask for at least one Reviewer if multiple people are involved.**
+  - **Ask for at least one Reviewer if multiple people are involved or teaching it in future semesters**
 - **Updating the course Calendar**
   - many people depend on this so it should be discussed in a pull request.
 
 #### What should be Pull Request Contain?
-- Topical Title to what you're doing.
+- A title describing what you're doing.
 - A description that describes your rationale or discussions that have been given.
+- Any issues that had discussions that would be relevant to the pull request.
 - The actual work inside of the master-course repository and any supporting links that are needed.
 
 ## Syncing with Learning Management Systems
@@ -69,10 +71,11 @@ At the End of the School year:
 
 ## What should a master-course should it contain
 There are a couple of courses that use the "master course" format for their repository.
+Note: Materials that are better managed on brightspace should be on brightspace and not necessarily on the github, hopefully folks agree that this is a better way to update assignments.
 Below is a list of things that should be contained in the master course repository.
 
 The effort is to limit the number of places we need to access information while getting the benefits of using git to manage the course content.
-- 1 Starter Kit for Each assignment, Lab and In Class 
+- 1 Starter Kit for Each assignment, Lab and In Class
     - Do not make a copy, this is so that we can be consistent.
     - this is only for the assignments that use github classroom.
 - 1 Master Course Repository (with the following files and directories.)
@@ -93,7 +96,7 @@ The effort is to limit the number of places we need to access information while 
     - any other non code that we want to manage iwth github.
     - *Note: Course Outlines should be managed in brightspace or the learning management system.*
   - **1 folder for each topic taught in the course.**
-    - README.md for the 
+    - README.md for the
       - this should contain lesson plans for each day taught
     - Folders for every example (start and end)
       - preferrably have a readme for this.
@@ -113,7 +116,7 @@ The effort is to limit the number of places we need to access information while 
       - How to set up the environment
       - How to set up the assignments
     - Website External to course (optional)
-      - Link external website if you 
+      - Link external website if you
     - Personal Resources from Instructors
       - Should have an instructor name
         - Under the instructor name just random links and notes that the instructor found useful.
