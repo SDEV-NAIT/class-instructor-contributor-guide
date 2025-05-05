@@ -71,7 +71,7 @@ At the End of the School year:
 
 ## What should a master-course should it contain
 There are a couple of courses that use the "master course" format for their repository.
-Note: Materials that are better managed on brightspace should be on brightspace and not necessarily on the github, hopefully folks agree that this is a better way to update assignments.
+Note: Materials that are better managed on brightspace should be on brightspace and not on the github, hopefully folks agree that this is a better way to update assignments/examples.
 Below is a list of things that should be contained in the master course repository.
 
 The effort is to limit the number of places we need to access information while getting the benefits of using git to manage the course content.
