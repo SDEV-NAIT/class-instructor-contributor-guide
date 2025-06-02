@@ -13,6 +13,7 @@ This is an attempt at creating consistency so we can dive into a new course and 
 - [SDEV1001 - Programming Fundamentals](https://github.com/SDEV-NAIT/SDEV1001?tab=readme-ov-file)
 - [SDEV1150 - Front End Development Fundamentals](https://github.com/SDEV-NAIT/SDEV1150)
 - [SDEV2401 Rapid Backend Development](https://github.com/SDEV-NAIT/SDEV2401/tree/main)
+- [SDEV1000 - Logic and Problem Solving](https://github.com/SDEV-NAIT/SDEV1000)
 
 *Please add your repo here if you have one via pull request*
 
