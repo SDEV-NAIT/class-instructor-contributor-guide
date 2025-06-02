@@ -11,6 +11,8 @@ This is an attempt at creating consistency so we can dive into a new course and 
 - [DMIT2008 - Intermediate Frontend Dev](https://github.com/dmit-2008/master-course)
 - [CPSC1520 - Intro to Frontend Dev](https://github.com/CPSC-1520/master-course/tree/master)
 - [SDEV1001 - Programming Fundamentals](https://github.com/SDEV-NAIT/SDEV1001?tab=readme-ov-file)
+- [SDEV1150 - Front End Development Fundamentals](https://github.com/SDEV-NAIT/SDEV1150)
+- [SDEV2401 Rapid Backend Development](https://github.com/SDEV-NAIT/SDEV2401/tree/main)
 
 *Please add your repo here if you have one via pull request*
 
