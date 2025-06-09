@@ -1,4 +1,4 @@
-*# How to contribute to Primary Course Repositories
+# How to contribute to Primary Course Repositories
 
 For us all to have a consistent environment teaching it would be fantastic to have some guidelines on how to contribute to primary course repositories (for those that have them).
 
