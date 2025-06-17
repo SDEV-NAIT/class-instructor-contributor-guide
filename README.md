@@ -43,13 +43,13 @@ Please clean up content and make it easier for the next instructors to teach the
 - **Links**
   - if they need to be updated or if they're broken.
 - **Examples and Notes**
-  - just push them up and **make a reference to them in the lesson plan** in the README of the topic.
+  - just push them up and **make a reference to them in the lesson plan** in the README of the topic/module.
   - *Add a comment to an issue for "Recent Updates" to this course, if there isn't one please create it.* Note: There should only be one of these issues.
 - Adding information to "Personal Resources"
   - *Add a comment to an issue for "Recent Updates" to this course, if there isn't one please create it.* Note: There should only be one of these issues.
 
 #### Things that require a pull request.
-- **Changing the Order of the Topics.**
+- **Changing the Order of the Topics/module.**
   - Some type of rationale needs to be provided to be discussed in the pull request, needs more than one reviewer if multiple people are involved.
 - **Changing the Weighting or the Due Dates of an assignment/lab/in-class/quiz.**
   - The rationale needs to be discussed (to be discussed in the pull request), needs more than one reviewer if multiple people are involved.
@@ -100,21 +100,21 @@ The effort is to limit the number of places we need to access information while 
     - this should have the planning calendar attached or linked in some way shape or form.
     - any other non code that we want to manage with github.
     - *Note: Course Outlines should be managed in brightspace or the learning management system.*
-  - **1 folder for each topic taught in the course.**
+  - **1 folder for each topic/module taught in the course.**
     - README.md for the
       - this should contain lesson plans for each day taught
     - Folders for every example (start and end)
       - preferably have a readme for this.
-      - Should be referenced in the topic README.md
+      - Should be referenced in the topic/module README.md
     - Any notes needed or links to notes needed should be in here.
-      - Should be referenced in the topic README.md
+      - Should be referenced in the topic/module README.md
   - **README.md** for the course
     - Description for the course
     - **Table for Assignments**
       - Link to each assignment in the repo
       - Weighting
       - Due Date (can be a week)
-    - **Link to the Topics**
+    - **Link to the Topics/Modules**
       - Should link to the README.md in the folder.
       - Should be in the order of things taught
     - Notes that might helpful for the course (optional)
