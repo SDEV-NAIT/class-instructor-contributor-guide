@@ -1,6 +1,6 @@
 # How to contribute to Primary Course Repositories
 
-For us all to have a consistent environment teaching it would be fantastic to have some guidelines on how to contribute to primary course repositories (for those that have them).
+For us all to have a consistent teaching environment it would be fantastic to have some guidelines on how to contribute to primary course repositories (for those that have them).
 
 **IMPORTANT NOTE: There should be ONE primary course repository per course, no forks, no copies, just a single repository (plus assignment template repositories)**
 
@@ -16,7 +16,9 @@ This is an attempt at creating consistency so we can dive into a new course and 
 - [CPSC1520 - Intro to Frontend Dev](https://github.com/CPSC-1520/master-course/tree/master)
 - [SDEV1001 - Programming Fundamentals](https://github.com/SDEV-NAIT/SDEV1001?tab=readme-ov-file)
 - [SDEV1150 - Front End Development Fundamentals](https://github.com/SDEV-NAIT/SDEV1150)
-- [SDEV2401 Rapid Backend Development](https://github.com/SDEV-NAIT/SDEV2401/tree/main)
+- [SDEV2150 - Intermediate Front End Development](https://github.com/SDEV-NAIT/SDEV2150/tree/main)
+- [SDEV2401 - Rapid Backend Development](https://github.com/SDEV-NAIT/SDEV2401/tree/main)
+- [SDEV2451 - Full Stack Development](https://github.com/SDEV-NAIT/SDEV2451/tree/main)
 - [SDEV1000 - Logic and Problem Solving](https://github.com/SDEV-NAIT/SDEV1000)
 
 *Please add your repo here if you have one via pull request*
@@ -34,7 +36,7 @@ Please clean up content and make it easier for the next instructors to teach the
 
 1. Clone the repository locally.
 2. Add your changes to the repository and push them up:
-  - Push the changes if they fall under  **Things that you can just push up to the Repository** (see below)
+  - Push the changes if they fall under **Things that you can just push up to the Repository** (see below)
   - Create a pull request if the changes fall under **Things that require a pull request** (see below)
 3. Notify your fellow instructors or update an issue named "Recent Changes in the Repository"
 
@@ -43,7 +45,7 @@ Please clean up content and make it easier for the next instructors to teach the
 #### Things that you can just push up to the Repository.
 - **Typos**, just push up the changes no notification needed, unless you are chatting with the other instructors.
 - **Links**
-  - if they need to be updated or if they're broken.
+  - If they need to be updated or if they're broken.
 - **Examples and Notes**
   - just push them up and **make a reference to them in the lesson plan** in the README of the topic/module.
   - *Add a comment to an issue for "Recent Updates" to this course, if there isn't one please create it.* Note: There should only be one of these issues.
@@ -51,17 +53,17 @@ Please clean up content and make it easier for the next instructors to teach the
   - *Add a comment to an issue for "Recent Updates" to this course, if there isn't one please create it.* Note: There should only be one of these issues.
 
 #### Things that require a pull request.
-- **Changing the Order of the Topics/module.**
+- **Changing the Order of the Topics/Modules.**
   - Some type of rationale needs to be provided to be discussed in the pull request, needs more than one reviewer if multiple people are involved.
 - **Changing the Weighting or the Due Dates of an assignment/lab/in-class/quiz.**
   - The rationale needs to be discussed (to be discussed in the pull request), needs more than one reviewer if multiple people are involved.
 - **Creating a new assignment/lab/in-class/quiz**
-  - The Assignment should be in primary course first in a pull request before you update the starter-kit.
-    - If you create in the starter kit first please make a pull request referencing it in the primary course as well.
+  - The Assignment should be in the primary course first in a pull request before you update the starter kit.
+    - If you create it in the starter kit first please make a pull request referencing it in the primary course as well.
   - The old assignment can be moved to an "old_assignments" folder in the folder of that specific assignment.
-  - In the "README.md" of the assignment there should be a link to the assignment template that is being used (one per assignment.) *There should also be a reference to this in the primary course readme as well.*
+  - In the "README.md" of the assignment there should be a link to the assignment template that is being used (one per assignment.) *There should also be a reference to this in the primary course README as well.*
   - Add a comment to an issue for "Recent Updates" to this course, if there isn't one please create it. There should only be one of these issues.
-  - **Ask for at least one Reviewer if multiple people are involved or teaching it in future semesters**
+  - **Ask for at least one reviewer if multiple people are involved or teaching it in future semesters**
 - **Updating the course Calendar**
   - many people depend on this so it should be discussed in a pull request.
 
@@ -72,19 +74,19 @@ Please clean up content and make it easier for the next instructors to teach the
 - The actual work inside of the primary-course repository and any supporting links that are needed.
 
 ## Syncing with Learning Management Systems
-At the End of the School year:
-- Sync all of the examples with brightspace, moodle, or what ever learning management system that we are using with the primary repository.
+At the end of the school year:
+- Sync all of the examples with Brightspace, Moodle, or whatever learning management system that we are using with the primary repository.
 - Ensure that it's up to date with the course outline.
 
-## What should a primary-course contain
+## What should a primary course contain
 There are a couple of courses that use the "primary course" format for their repository.
-Note: Materials that are better managed on brightspace should be on brightspace and not on the github, hopefully folks agree that this is a better way to update assignments/examples.
-Below is a list of things that should be contained in the primary course repository.**
+Note: Materials that are better managed on Brightspace should be on Brightspace and not on GitHub, hopefully folks agree that this is a better way to update assignments/examples.
+Below is a list of things that should be contained in the primary course repository.
 
 The effort is to limit the number of places we need to access information while getting the benefits of using git to manage the course content.
 - 1 Starter Kit for Each assignment, Lab and In Class
     - Do not make a copy, this is so that we can be consistent.
-    - this is only for the assignments that use github classroom.
+    - This is only for the assignments that use GitHub Classroom.
 - 1 Primary Course Repository (with the following files and directories.)
   - **assignments/**
     - 1 folder for each assignment
@@ -97,16 +99,16 @@ The effort is to limit the number of places we need to access information while 
         - Link to the starter kit.
         - Folder for the current assignment start
         - Folder for the solution of the current assignment
-        - folder for "past/old assignments"
+        - Folder for "past/old assignments"
   - **admin/** (optional)
-    - this should have the planning calendar attached or linked in some way shape or form.
-    - any other non code that we want to manage with github.
-    - *Note: Course Outlines should be managed in brightspace or the learning management system.*
+    - This should have the planning calendar attached or linked in some way shape or form.
+    - Any other non-code content that we want to manage with GitHub.
+    - *Note: Course Outlines should be managed in Brightspace or the learning management system.*
   - **1 folder for each topic/module taught in the course.**
-    - README.md for the
-      - this should contain lesson plans for each day taught
+    - README.md for the topic/module
+      - This should contain lesson plans for each day taught
     - Folders for every example (start and end)
-      - preferably have a readme for this.
+      - Preferably have a README for this.
       - Should be referenced in the topic/module README.md
     - Any notes needed or links to notes needed should be in here.
       - Should be referenced in the topic/module README.md
@@ -119,13 +121,11 @@ The effort is to limit the number of places we need to access information while 
     - **Link to the Topics/Modules**
       - Should link to the README.md in the folder.
       - Should be in the order of things taught
-    - Notes that might helpful for the course (optional)
+    - Notes that might be helpful for the course (optional)
       - How to set up the environment
       - How to set up the assignments
     - Website External to course (optional)
-      - Link external website if you
+      - Link to an external website if you have one
     - Personal Resources from Instructors
       - Should have an instructor name
         - Under the instructor name just random links and notes that the instructor found useful.
-
-*
