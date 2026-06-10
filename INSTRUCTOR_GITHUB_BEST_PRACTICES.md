@@ -9,6 +9,17 @@
   - [SDEV1001 - Version Control Module](https://github.com/SDEV-NAIT/SDEV1001/tree/main/Module-2/version-control)
   - [W3 Schools](https://www.w3schools.com/git/git_intro.asp)
 
+- Please refer to [How to contribute](#how-to-contribute) for more information on how to contribute to the course repositories.
+
+## Expectations for instructors using a course that uses a primary repoitory on github.
+
+If you are teaching a course (with a GitHub primary-course), you should be doing the following:
+- creating and updating course content and examples
+- fixing typos and errors
+- adding notes that might have helped you and might help another instructor in the future.
+
+Please clean up content and make it easier for the next instructors to teach the course.
+
 ## Commit at a Regular Pace.
 
 - Make small incremental commits at a regular interval (multiple per day if possible). Until you're done.
@@ -74,7 +85,20 @@ This includes the following:
 ## Course leads should provide a clear way to set up a work book for a section for this course.
 - Suggestion For you a course leader reading this you can use [Copyin starter examples and slides tool](https://github.com/SDEV-NAIT/nait-slide-builder#copying-starter-examples-and-slides-for-new-classes-used-at-the-start-of-the-semester) to create a repo that other instructors can fork.
 
-# Extra
+## Course Leaders are expected to Sync their course with Learning Management Systems (Brightspace for now)
+At the end of the school year:
+- Sync all of the examples with Brightspace, Moodle, or whatever learning management system that we are using with the primary repository.
+- Ensure that it's up to date with the course outline.
+
+# Reference
+
+## How to contribute
+
+1. Clone the repository locally.
+2. Add your changes to the repository and push them up:
+  - Push the changes if they fall under **Things that you can just push up to the Repository** (see below)
+  - Create a pull request if the changes fall under **Things that require a pull request** (see below)
+3. Notify your fellow instructors or update an issue named "Recent Changes in the Repository"
 
 ## Should I make a pull request or just push directly to the existing repository?
 
@@ -112,3 +136,5 @@ If you're unsure about this please ask
 - A description that describes your rationale or discussions that have been given.
 - Any issues that had discussions that would be relevant to the pull request.
 - The actual work inside of the primary-course repository and any supporting links that are needed.
+
+
