@@ -9,6 +9,8 @@
 ## [New Course Best Practices](NEW_COURSES_PRACTICES.md)
 - If you're developing a new course
 
+## General Notes
+
 For us all to have a consistent teaching environment it would be fantastic to have some guidelines on how to contribute to primary course repositories (for those that have them).
 
 **IMPORTANT NOTE: There should be ONE primary course repository per course, no forks, no copies, just a single repository (plus assignment template repositories)**
