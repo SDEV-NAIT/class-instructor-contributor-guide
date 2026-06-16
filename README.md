@@ -31,6 +31,7 @@ This is an attempt at creating consistency so we can dive into a new course and 
 - [SDEV2401 - Rapid Backend Development](https://github.com/SDEV-NAIT/SDEV2401/tree/main)
 - [SDEV2451 - Full Stack Development](https://github.com/SDEV-NAIT/SDEV2451/tree/main)
 - [SDEV1000 - Logic and Problem Solving](https://github.com/SDEV-NAIT/SDEV1000)
+- [SDEV2171 - Mobile Application Development](https://github.com/SDEV-NAIT/SDEV2171)
 
 *Please add your repo here if you have one via pull request*
 
