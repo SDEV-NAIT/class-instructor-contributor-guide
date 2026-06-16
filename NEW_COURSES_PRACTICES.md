@@ -8,7 +8,7 @@ If you'd like a template of the suggested structure please use:
 ## What should a Github primary-course contain
 There are a couple of courses that use the "primary course" format for their repository.
 Note: Materials that are better managed on Brightspace should be on Brightspace and not on GitHub, hopefully folks agree that this is a better way to update assignments/examples.
-Below is a list of things that should be contained in the primary course repository. For example: syllabus, and files not relevant to day to day content on brightspace, day to day content and
+Below is a list of things that should be contained in the primary course repository. For example: syllabus, and files not relevant to day to day content on brightspace, day to day content, examples and assignments/labs/in-class/quiz materials, and any other content that is relevant to the course should be on github.
 
 The effort is to limit the number of places we need to access information while getting the benefits of using git to manage the course content.
 - One Starter Kit for Each assignment, Lab and In Class
@@ -24,9 +24,9 @@ The effort is to limit the number of places we need to access information while 
     - One folder for each
       - README.md
         - Link to the starter kit.
-        - Folder for the current assignment start
-        - Folder for the solution of the current assignment
-        - Folder for "past/old assignments"
+        - Folder for the current assessment start
+        - Folder for the solution of the current assessment
+        - Folder for "past/old assessment"
   - **admin/** (optional)
     - This should have the planning calendar attached or linked in some way shape or form.
     - Any other non-code content that we want to manage with GitHub.
