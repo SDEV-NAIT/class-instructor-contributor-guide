@@ -2,6 +2,12 @@
 
 Submission guidelines that instructors need to clearly communicate to students.
 
+## Privacy, and using usernames, and names that are publicly identifiable information on github.
+
+Don't include a student NAIT username, or NAIT student name in the repository in any way shape or form. If your assignment and lab asks for it then you need to change, please ask for something else.
+
+If students are creating their github username for the first time please counsel the students to make a username that is slightly different than their NAIT username so that it's not publicly identifiable.
+
 ## Incremental Development via Commit History - Requiring frequent, meaningful commits throughout development, rather than relying on a single final upload. Reviewing the commit history alongside the final code provides much stronger evidence of authentic progress and encourages better long-term development habits.
 
 Please include the following text in your assignments:
